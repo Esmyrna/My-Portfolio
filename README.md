@@ -1,3 +1,3 @@
-# Meu portfólio pessoal desenvolvido em React JS;
+  Meu portfólio pessoal desenvolvido em React JS;
 
  
