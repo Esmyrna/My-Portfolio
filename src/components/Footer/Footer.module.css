@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Relaway-Regular';
+    src: url('../../assets/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Relaway-Bold';
+    src: url('../../assets/fonts/Raleway-Bold.ttf');
+}
+#head {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    font-family: 'Relaway-Regular';
+}
+
+.card {
+    color: #fcfc;
+    font-family: 'Relaway-Bold';
+}
+
+#muted {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+    font-family: 'Relaway-Regular';
+}
+
+ .iconsSociais svg {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fcfc;
+    border-radius: 20px;
+    cursor: pointer;  
+    text-decoration: none;
+ }
+
+ 
+ .iconsSociais svg:hover {
+    opacity: 0.7;
+ }
+ 

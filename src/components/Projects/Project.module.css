@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Relaway-Regular';
+    src: url('../../assets/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Relaway-Bold';
+    src: url('../../assets/fonts/Raleway-Bold.ttf');
+}
+ 
+ 
+ 
+ .ProjectCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    margin: 1rem 0;
+     
+   
+ }
+
+ .sectionProject h1 {
+    font-size: 1.5rem;
+    font-family: 'Relaway-Regular';
+    color: #fcfc;
+    margin-top: 1rem;
+    text-align: center;
+ }
+ 
+ 
+ .cards {
+    width: 75%;
+   
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+ }
+
+ .cards img {
+    width: 100%;
+    border: 2px solid #fcfc;
+    cursor: pointer;
+ }
+ .cards img:hover {
+   opacity: 0.4;
+ }
+
+ .cards a {
+   width: 100%;
+ }
+ .cards h2{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+ }
+
+ .cards p {
+    color: #fff;
+    font-family: 'Relaway-Regular';
+    font-size: .9rem;
+    text-align: center;
+    padding: 0 .5rem;
+
+ }
+ .btnProject {
+    margin: 0rem 0 .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .btnProject svg {
+    background-color: #fcfc;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+ }

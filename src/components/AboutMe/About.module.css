@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Relaway-Regular';
+    src: url('../../assets/fonts/Raleway-Regular.ttf');
+}
+ 
+ 
+ .allAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 2rem;
+ }
+
+ #about::after{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 3px;
+    background: #740c51;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.allAbout p{
+    margin-top: 25px;
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: 'Relaway-Regular';
+    color: #fff;
+}
+
+h2 {
+    color: rgb(224, 131, 236);
+}
+
+
+ .aboutMe {
+    width: 50%;   
+ }
+
+ #moveImg{
+    width: 85%;
+    border: 3px solid #740c51;
+    border-radius: 70px;
+ }
+
+ .TextAbout {
+    width: 50%;
+ }
+ 
+
+#mySkill, #mySkill2 {  
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Relaway-Regular';
+    text-align: start;
+    margin: 1rem 0;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 280px) and (max-width: 820px){
+    
+    .allAbout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutMe {
+        width: 100%;
+    }
+    #moveImg {
+        width: 100%;
+    }
+    
+    .TextAbout {
+        width: 100%;
+        margin: 1rem 0;
+         
+    }
+    .TextAbout p {
+        font-size: 1rem;
+    }
+    .lista {
+        font-size: 0.9rem;
+    }
+}

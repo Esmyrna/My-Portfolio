@@ -1,0 +1,239 @@
+
+@font-face {
+    font-family: 'Relaway-Regular';
+    src: url('../../assets/fonts/Raleway-Regular.ttf');
+}
+.contato {
+    height: 90vh;
+}
+.contatoContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+}
+.contatoTittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    color: #fcfc;
+    font-family: 'Relaway-Regular';
+     
+}
+.contatoTittle::after{
+    content: '';
+    display: block;
+    width: 8%;
+    height: 3px;
+    background: #740c51;
+    margin-left: -6%;
+    margin-top: 3%;
+}
+
+.left {
+    height: 80vh;
+    width: 40%;
+     
+}
+
+  .location {
+   display: flex;
+   flex-direction: row;
+    color: #fff;  
+}
+
+.location svg {
+    margin: 0 1rem;
+    background-color: rgba(156, 63, 156, 0.8);
+    height: 40px;
+    width: 40px;
+    padding: 0rem 0.5rem;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+.location svg:hover {
+    opacity: 0.3;
+}
+
+.location h5 {
+    margin: 0.5rem 0.5rem;
+    font-family: 'Relaway-Bold';
+}
+
+.location p {
+    margin: 0.6rem 0.5rem;
+    font-family: 'Relaway-Regular';
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    color: #fff;  
+    margin: .5rem 0;
+}
+.mail svg{
+    color: #fff;
+    margin: 1rem 1rem;
+    background-color: rgba(156, 63, 156, 0.8);
+    height: 40px;
+    width: 40px;
+    padding: 0rem 0.5rem;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+.mail svg:hover {
+    opacity: 0.3;
+}
+
+.mail h5 {
+    margin: 1.5rem 0.5rem;
+    font-family: 'Relaway-Bold';
+   
+}
+
+.mail p {
+    margin: 1.5rem 0.5rem;
+    font-family: 'Relaway-Regular';
+     
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.call svg {
+    color: #fff;
+    margin: 1rem 1rem;
+    background-color: rgba(156, 63, 156, 0.8);
+    height: 40px;
+    width: 40px;
+    padding: 0rem 0.5rem;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+.call svg:hover {
+    opacity: 0.3;
+}
+.call h5{
+    margin: 1.5rem 0.5rem;
+    font-family: 'Relaway-Bold';
+}
+.call p{
+    margin: 1.5rem 0.5rem;
+    font-family: 'Relaway-Regular';
+}
+
+.contatoRow {
+    height: 100vh;
+}
+
+.contatoRow .row1 input{
+    width: 500px;
+    margin: 0.6rem 0;
+    padding: 8px;
+    border: 4px solid #cc7bb1;
+    background-color: #1a1819;
+    color: #FFF;
+}
+.contatoRow .row2 input{
+    width: 500px;
+    margin: 0.6rem 0;
+    padding: 8px;
+    border: 4px solid #cc7bb1;
+    background-color: #1a1819;
+    color: #FFF;
+}
+.contatoRow .row3 input{
+    width: 500px;
+    margin: 0.6rem 0;
+    padding: 8px;
+    border: 4px solid #cc7bb1;;
+    background-color: #1a1819;
+    color: #FFF;
+}
+
+.contatoRow .row4 textarea{
+    width: 500px;
+    height: 150px;
+    margin: 0.8rem 0;
+    padding: 8px;
+    border: 4px solid #cc7bb1;
+    background-color: #1a1819;
+    color: #FFF;
+}
+#btnForm {
+    background-color: #740c51;
+    width: 30%;
+    height: 6%;
+    border: 2px solid #fcfc;
+    color: #fcfc;
+    font-family: 'Relaway-Bold';
+}
+#btnForm:hover{
+    box-shadow: 0 0 10px 0 #cc7bb1 inset, 0 0 10px 4px #cc7bb1;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1005px){
+    .left {
+        display: none;
+    }
+   .contatoContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        background: none;
+        margin: auto;
+   }
+   .contatoRow{
+    margin: auto;
+    width: 80%;
+   }
+
+   form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+   }
+
+   .right{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .contatoTittle::after{
+    content: '';
+    display: block;
+    width: 8%;
+    height: 3px;
+    background: #740c51;
+    margin-left: -6%;
+    margin-top: 6%;
+}
+    .contatoRow .row1 input{
+        width: 100%
+    }
+    .contatoRow .row2 input{
+        width: 100%;
+    }
+    .contatoRow .row3 input{
+        width: 100%;
+    }
+    .contatoRow .row4 textarea{
+        width: 100%;
+   
+        margin: 0.8rem 0;
+    }
+ }
