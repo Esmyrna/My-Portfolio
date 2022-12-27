@@ -185,6 +185,9 @@
     .left {
         display: none;
     }
+    .contato {
+        height: 80vh;
+    }
    .contatoContainer {
         display: flex;
         flex-direction: row;

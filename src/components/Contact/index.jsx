@@ -53,7 +53,7 @@ function Contact() {
                      <div className={styles.mail}>
                         <FaRegEnvelope />
                         <h5>E-mail:</h5>
-                        <p>Esmyrnaoliveira13@gmail.com</p>
+                        <p>Esmyrna.oliveira@gmail.com</p>
                      </div>
                      <div className={styles.call}>
                         <BiPhoneCall />

@@ -90,9 +90,43 @@ h1 {
     background: none;  
 }
 
-#tittle{
+#title{
     font-size: 4rem;
+    
+  
 }
+
+.frontEND{
+    border-right: 2px solid #fcfc;
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+    animation-iteration-count: infinite;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+#download {
+    text-decoration: none;
+} 
+@keyframes typing {
+    from{
+        width: 0;
+        
+    }
+    to{
+        width: 13em;
+    }
+}
+ 
+
+@keyframes blinkCursor{
+    from{
+        border-right-color: #fcfc;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+ 
 h3 {
     color: white;
     background: none;
@@ -123,17 +157,17 @@ span {
     }
 }
 
-@media screen and (min-width: 390px) and (max-width: 820px){
-    #tittle{
+@media screen and (min-width: 330px) and (max-width: 820px){
+    #title{
         font-size: 2rem;
     }
     .all {
         background: none;
-        height: 80vh;
+        height: 60vh;
     }
 
-    #tittle h3 {
-        font-size: 1rem;
+   .content h3 {
+        font-size: 0.8rem;
     }
     
     .tecnologias li {
@@ -141,6 +175,24 @@ span {
         padding: 0.5rem 0;
     }
     
+   .list ul {
+         padding: 0;
+         margin: 0;
+    }
+
+   #title h1{
+        font-size: .5rem;
+    }
     
 }
  
+@media screen and (min-width: 500px) and (max-width: 820px){
+    .all {
+        background: none;
+        height: 80vh;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+    }
+}

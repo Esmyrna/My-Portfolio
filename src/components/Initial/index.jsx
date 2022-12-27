@@ -10,21 +10,7 @@ import { FaJava } from 'react-icons/fa';
 import {SiTypescript} from 'react-icons/si'
 import {FaAngular} from 'react-icons/fa'
 import { useState } from 'react';
-
-async function  onButtonClick(){
-    // using Java Script method to get PDF file
-   await fetch('Currículo.pdf').then(response => {
-     response.blob().then(blob => {
-            // Creating new object of PDF file
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'Currículo.pdf';
-            alink.click();
-        })
-    })
-}
+import CV from '../../assets/Curriculo/Currículo.pdf'
 
 
 function Initial() {
@@ -47,13 +33,16 @@ function Initial() {
             </div>
             <div className={styles.content} id="home">
                 <h4 >Olá, eu me chamo</h4>
-                <h1 id={styles.tittle}>Esmyrna <span>Oliveira</span></h1>
-                <h3>Desenvolvedora <span id={styles.roxo}>Full Stack</span></h3>
+                <h1  id={styles.title} >Esmyrna <span>Oliveira</span></h1> 
+                <span id={styles.barra}>|</span>
+                <h3 class={styles.frontEND}>Desenvolvedora <span id={styles.roxo}>Front End</span></h3>
                 <hr id="line"></hr>
-               
-                <button onClick={onButtonClick} id={styles.btn}>
+               <a id={styles.download} href={CV} download>
+               <button  id={styles.btn}>
                    Download CV
                 </button>
+               </a>
+               
      
               
             </div>
