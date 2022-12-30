@@ -7,7 +7,7 @@ function Card({title, description, imgUrl, link}) {
      
     return(
         
-       <div  className={styles.allCard} >
+       <div  className={styles.allCard} id="projetos" >
         <div className={styles.cards} >
 
             <a target="_blank" href={link}>

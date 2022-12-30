@@ -4,11 +4,11 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 2rem 0rem;
+    padding: 5rem 0rem;
     background-image: url('../../assets/img/fotominha.jpeg');
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: 100% 80%;
+    background-position: 100% 50%;
 }
 
 .tecnologias {
